@@ -42,19 +42,15 @@ description: Choose from our standard mini split installation package or upgrade
                             </li>
                             <li class="mb-3">
                                 <i class="fas fa-check text-success me-2"></i>
-                                Electrical connection to existing panel
-                            </li>
-                            <li class="mb-3">
-                                <i class="fas fa-check text-success me-2"></i>
                                 System testing and startup
                             </li>
                             <li class="mb-3">
                                 <i class="fas fa-check text-success me-2"></i>
-                                Basic cleanup and debris removal
+                                Wiring to existing disconnect box
                             </li>
                             <li class="mb-3">
                                 <i class="fas fa-check text-success me-2"></i>
-                                1-year installation warranty
+                                Standard 1-year warranty
                             </li>
                         </ul>
                         <div class="text-center mt-4">
@@ -78,68 +74,17 @@ description: Choose from our standard mini split installation package or upgrade
                             </li>
                             <li class="mb-3">
                                 <i class="fas fa-check text-success me-2"></i>
-                                New electrical circuit installation
+                                Electrical wiring and conduit for new mini split disconnect on existing circuit      
                             </li>
                             <li class="mb-3">
                                 <i class="fas fa-check text-success me-2"></i>
-                                Circuit breaker installation
-                            </li>
-                            <li class="mb-3">
-                                <i class="fas fa-check text-success me-2"></i>
-                                Electrical conduit and wiring
-                            </li>
-                            <li class="mb-3">
-                                <i class="fas fa-check text-success me-2"></i>
-                                Electrical permit (if required)
-                            </li>
-                            <li class="mb-3">
-                                <i class="fas fa-check text-success me-2"></i>
-                                Electrical inspection coordination
-                            </li>
-                            <li class="mb-3">
-                                <i class="fas fa-check text-success me-2"></i>
-                                2-year installation warranty
+                                Wifi setup for smarthome, add on support for standard 1-year warranty
                             </li>
                         </ul>
                         <div class="text-center mt-4">
                             <a href="tel:6232589666" class="btn btn-gradient">Get Quote</a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Additional Services -->
-<section class="py-5 bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center mb-4">
-                <h2>Additional Services</h2>
-                <p class="lead">Custom solutions for your specific needs</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="text-center">
-                    <i class="fas fa-tools fa-3x text-primary mb-3"></i>
-                    <h4>Maintenance</h4>
-                    <p>Regular maintenance to keep your system running efficiently</p>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="text-center">
-                    <i class="fas fa-wrench fa-3x text-success mb-3"></i>
-                    <h4>Repairs</h4>
-                    <p>Quick and reliable repair services for all mini split systems</p>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="text-center">
-                    <i class="fas fa-cog fa-3x text-info mb-3"></i>
-                    <h4>Upgrades</h4>
-                    <p>System upgrades and smart thermostat installation</p>
                 </div>
             </div>
         </div>

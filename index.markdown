@@ -8,7 +8,7 @@ description: Professional mini split installation services starting at $750*. Ex
 <section class="hero-section">
     <div class="container">
         <h1>Professional Mini Split Installation</h1>
-        <p>Expert HVAC solutions starting at $750* - Quality service you can trust</p>
+        <p>Expert mini split installation starting at $750*</p>
         <a href="/packages/" class="btn btn-gradient btn-lg">View Our Packages</a>
     </div>
 </section>
@@ -18,7 +18,7 @@ description: Professional mini split installation services starting at $750*. Ex
     <div class="container">
         <div class="row text-center mb-5">
             <div class="col-12">
-                <h2 class="text-gradient">Why Choose Raytek Solutions?</h2>
+                <h2 class="text-gradient">Why Choose Raytek LLC?</h2>
                 <p class="lead">Professional installation with competitive pricing</p>
             </div>
         </div>
@@ -27,7 +27,7 @@ description: Professional mini split installation services starting at $750*. Ex
                 <div class="text-center">
                     <i class="fas fa-tools fa-3x text-primary mb-3"></i>
                     <h4>Expert Installation</h4>
-                    <p>Licensed and certified technicians with years of experience</p>
+                    <p>Utilizing the proper installation procedures for a reliable, leak free install, ensuring years of heating and cooling</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
@@ -41,7 +41,7 @@ description: Professional mini split installation services starting at $750*. Ex
                 <div class="text-center">
                     <i class="fas fa-clock fa-3x text-info mb-3"></i>
                     <h4>Quick Service</h4>
-                    <p>Fast installation and reliable support when you need it most</p>
+                    <p>Fast installation and reliable support for 1 year post install</p>
                 </div>
             </div>
         </div>
@@ -60,25 +60,13 @@ description: Professional mini split installation services starting at $750*. Ex
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="d-block w-100" alt="Mini Split Installation 1">
-                    <div class="carousel-caption">
-                        <h5>Residential Mini Split Installation</h5>
-                        <p>Complete installation in Phoenix home</p>
-                    </div>
+                    <img src="{{ '/assets/images/index/1000001391.jpg' | relative_url }}" class="d-block w-100" alt="Mini Split Installation 1">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="d-block w-100" alt="Mini Split Installation 2">
-                    <div class="carousel-caption">
-                        <h5>Commercial HVAC Solution</h5>
-                        <p>Multi-zone system for office building</p>
-                    </div>
+                    <img src="{{ '/assets/images/index/1000001391.jpg' | relative_url }}" class="d-block w-100" alt="Mini Split Installation 2">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="d-block w-100" alt="Mini Split Installation 3">
-                    <div class="carousel-caption">
-                        <h5>Energy Efficient Upgrade</h5>
-                        <p>Modern mini split with smart controls</p>
-                    </div>
+                    <img src="{{ '/assets/images/index/1000001391.jpg' | relative_url }}" class="d-block w-100" alt="Mini Split Installation 3">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
@@ -98,19 +86,19 @@ description: Professional mini split installation services starting at $750*. Ex
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="testimonial-card">
-                    <div class="quote">"Raytek Solutions did an amazing job installing our mini split. Professional, clean, and on time!"</div>
+                    <div class="quote">"Clear communication, timely, and we're very happy with how it looks!"</div>
                     <div class="author">- Sarah M., Phoenix</div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="testimonial-card">
-                    <div class="quote">"Best price in town and excellent workmanship. Highly recommend for anyone needing HVAC work."</div>
+                    <div class="quote">"Best price in town and excellent workmanship. Highly recommend for anyone needing a mini split installed."</div>
                     <div class="author">- Mike R., Mesa</div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="testimonial-card">
-                    <div class="quote">"Fast service and great communication throughout the entire process. Will use again!"</div>
+                    <div class="quote">"Fast service and great communication throughout the entire process."</div>
                     <div class="author">- Jennifer L., Scottsdale</div>
                 </div>
             </div>

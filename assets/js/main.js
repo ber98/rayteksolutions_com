@@ -77,9 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Add loading animation for images
 function preloadImages() {
     const imageUrls = [
-        'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
-        'https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-        'https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+        '/assets/images/index/1000001391.jpg'
     ];
 
     imageUrls.forEach(url => {

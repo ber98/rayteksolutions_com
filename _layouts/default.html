@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}Raytek Solutions</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Raytek LLC</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Professional mini split installation services starting at $750*{% endif %}">
     
     <!-- Bootstrap CSS -->
@@ -15,7 +15,7 @@
 </head>
 <body>
     <!-- Flashy Banner -->
-    <div class="flashy-banner">
+    <div class="flashy-banner" onclick="window.location.href='{{ '/packages/' | relative_url }}'" style="cursor: pointer;">
         <div class="container">
             <div class="banner-content">
                 <i class="fas fa-snowflake"></i>
@@ -29,7 +29,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="{{ '/' | relative_url }}">
-                <i class="fas fa-home"></i> Raytek Solutions
+                <i class="fas fa-home"></i> Raytek LLC
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -78,8 +78,8 @@
             </div>
             <hr class="my-3">
             <div class="text-center">
-                <p class="mb-0">&copy; 2024 Raytek Solutions. All rights reserved.</p>
-                <small class="text-muted">*Starting price may vary based on specific requirements and location.</small>
+                <p class="mb-0">Raytek LLC, serving the greater Phoenix area since 2021</p>
+                <small class="text-muted">*Starting price may vary based on specific install requirements and location.</small>
             </div>
         </div>
     </footer>
