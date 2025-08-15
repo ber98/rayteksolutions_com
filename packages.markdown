@@ -59,7 +59,6 @@ description: Choose from our standard mini split installation package or upgrade
                     </div>
                 </div>
             </div>
-            
             <div class="col-lg-5 col-md-6 mb-4">
                 <div class="card package-card h-100">
                     <div class="card-header">
@@ -78,7 +77,11 @@ description: Choose from our standard mini split installation package or upgrade
                             </li>
                             <li class="mb-3">
                                 <i class="fas fa-check text-success me-2"></i>
-                                Wifi setup for smarthome, add on support for standard 1-year warranty
+                                Wifi setup for smarthome
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check text-success me-2"></i>
+                                Add-on technical support for standard 1-year warranty
                             </li>
                         </ul>
                         <div class="text-center mt-4">

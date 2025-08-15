@@ -60,6 +60,20 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // Add click functionality to carousel images
+    const carouselImages = document.querySelectorAll('.carousel-image-clickable');
+    carouselImages.forEach(img => {
+        img.addEventListener('click', function() {
+            const modal = new bootstrap.Modal(document.getElementById('imageModal'));
+            const modalImage = document.getElementById('modalImage');
+            
+            modalImage.src = this.src;
+            modalImage.alt = this.alt;
+            
+            modal.show();
+        });
+    });
+
     // Smooth reveal animation for testimonials
     const testimonialCards = document.querySelectorAll('.testimonial-card');
     testimonialCards.forEach((card, index) => {
@@ -77,7 +91,9 @@ document.addEventListener('DOMContentLoaded', function() {
 // Add loading animation for images
 function preloadImages() {
     const imageUrls = [
-        '/assets/images/index/1000001391.jpg'
+        '/assets/images/index/dave_condenser.png',
+        '/assets/images/index/maple_air_handler.png',
+        '/assets/images/index/maple_air_handler2.png'
     ];
 
     imageUrls.forEach(url => {

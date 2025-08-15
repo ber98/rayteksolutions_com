@@ -60,13 +60,13 @@ description: Professional mini split installation services starting at $750*. Ex
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ '/assets/images/index/1000001391.jpg' | relative_url }}" class="d-block w-100" alt="Mini Split Installation 1">
+                    <img src="{{ '/assets/images/index/dave_condenser.png' | relative_url }}" class="d-block w-100 carousel-image-clickable" alt="Dave's Condenser Installation">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ '/assets/images/index/1000001391.jpg' | relative_url }}" class="d-block w-100" alt="Mini Split Installation 2">
+                    <img src="{{ '/assets/images/index/maple_air_handler.png' | relative_url }}" class="d-block w-100 carousel-image-clickable" alt="Maple Air Handler Installation">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ '/assets/images/index/1000001391.jpg' | relative_url }}" class="d-block w-100" alt="Mini Split Installation 3">
+                    <img src="{{ '/assets/images/index/maple_air_handler2.png' | relative_url }}" class="d-block w-100 carousel-image-clickable" alt="Maple Air Handler Detail">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
@@ -78,6 +78,20 @@ description: Professional mini split installation services starting at $750*. Ex
         </div>
     </div>
 </section>
+
+<!-- Image Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center p-0">
+                <img id="modalImage" src="" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Customer Testimonials -->
 <section class="py-5">

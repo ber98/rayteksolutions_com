@@ -83,12 +83,92 @@
 .carousel-item {
     height: 400px;
     background-color: #f8f9fa;
+    overflow: hidden;
 }
 
 .carousel-item img {
-    object-fit: cover;
+    object-fit: contain;
     height: 100%;
     width: 100%;
+    max-width: 1280px;
+    max-height: 720px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Optimize for 1280x720 aspect ratio */
+@media (min-width: 1280px) {
+    .carousel-item {
+        height: 500px;
+    }
+    
+    .carousel-item img {
+        object-fit: contain;
+        max-height: 500px;
+    }
+}
+
+/* Mobile optimization */
+@media (max-width: 767px) {
+    .carousel-item {
+        height: 300px;
+    }
+    
+    .carousel-item img {
+        object-fit: cover;
+    }
+}
+
+/* Clickable Carousel Images */
+.carousel-image-clickable {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.carousel-image-clickable:hover {
+    transform: scale(1.02);
+}
+
+/* Image Modal Styling */
+.modal-xl {
+    max-width: 90%;
+}
+
+#modalImage {
+    max-width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+}
+
+/* Carousel Controls Styling */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+/* Carousel Indicators Styling - Reverted to Bootstrap Default */
+.carousel-indicators {
+    /* Bootstrap default positioning */
 }
 
 .carousel-caption {
