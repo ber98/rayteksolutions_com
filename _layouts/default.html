@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Raytek Solutions</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Professional mini split installation services starting at $750*{% endif %}">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <!-- Flashy Banner -->
+    <div class="flashy-banner">
+        <div class="container">
+            <div class="banner-content">
+                <i class="fas fa-snowflake"></i>
+                <span class="banner-text">Mini split installs starting at $750*</span>
+                <i class="fas fa-snowflake"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="{{ '/' | relative_url }}">
+                <i class="fas fa-home"></i> Raytek Solutions
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/packages/' | relative_url }}">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/recommended-mini-splits/' | relative_url }}">Recommended Mini Splits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/about/' | relative_url }}">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        {{ content }}
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contact Information</h5>
+                    <p><i class="fas fa-phone"></i> <a href="tel:6232589666" class="text-light">(623) 258-9666</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:contact@rayteksolutions.com" class="text-light">contact@rayteksolutions.com</a></p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="text-light me-3" title="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#" class="text-light me-3" title="TikTok"><i class="fab fa-tiktok fa-2x"></i></a>
+                        <a href="#" class="text-light" title="YouTube"><i class="fab fa-youtube fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2024 Raytek Solutions. All rights reserved.</p>
+                <small class="text-muted">*Starting price may vary based on specific requirements and location.</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
